@@ -1,15 +1,56 @@
 @charset "UTF-8"; 
 
+:root{
+	--cor1: #49F284;
+	--cor2: ;
+	--cor3: ;
+	--cor4: ;
+	--cor5: ;
+	--cor6: #38734D;
+
+	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+	--fonte-destaque: ;
+	--fonte-titulo: ;
+}
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(imagens/rapimagemdefundo-removebg-preview.png);
+	background-attachment: fixed;
+	font-family: var(--fonte-padrao);
 
 }
 header{
-	background-image: linear-gradient( to right,  white, rgb(35, 204, 35));
-	color: rgb(5, 5, 5);
+	background-image: linear-gradient( to right,  #F3F5ED, #649B28);
+	color: var(--cor1);
 	text-align: center;
 	margin: auto;
+	min-height: 150px;
+}
+header h1{
+	padding-bottom: 6px;
+}
+header p{
+	padding-bottom: 5px;
+	color: black;
+	font-weight: bold;
+}
+nav a:hover{
+	background-color: rgb(31, 80, 31);
+	color: white;
+	transition-duration: 0.5s;
+	border-radius: 5px;
+}
+nav{
+	padding: 10px;
+	background-color: #38734D;
+	
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: medium;
+	padding-right: 45px;
 }
 main{
 	margin: auto;
@@ -27,6 +68,7 @@ footer{
 	text-align: center;
 	background-color: black;
 	color: greenyellow;
+	font-size: large;
 }
 footer >a{
 	color: white;
