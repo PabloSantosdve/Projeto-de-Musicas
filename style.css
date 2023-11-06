@@ -2,7 +2,11 @@
 
 @font-face {
 	font-family: 'negro';
-	src: url('JIMTH__.ttf') format('truetype');
+	src: url('fonte/VarsityTeam-Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'negro 2';
+	src: url('fonte/JIMTH___.TTF') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
@@ -14,8 +18,8 @@
 	--cor6: ;
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-	--fonte-destaque: ;
-	--fonte-titulo: '', 'cursive';
+	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
+	--fonte-titulo: 'negro', 'cursive';
 }
 body{
 	font-family: Arial, Helvetica, sans-serif;
@@ -25,10 +29,10 @@ body{
 
 }
 a:visited{
-	color: green;
+	color: #9904f7;
 }
 header{
-	background-image: linear-gradient( to right,  #F3F5ED, #649B28);
+	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -37,11 +41,12 @@ header{
 	border-radius: 10px;
 }
 header >h1{
-	font-family:  negro, Arial, Helvetica, sans-serif;
+	font-family:  var(--fonte-destaque);
 	color: black;
 	font-weight: bolder;
 	font-size: 3em;
 	margin: auto;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
 }
 header p{
 	padding-bottom: 5px;
@@ -50,14 +55,14 @@ header p{
 	
 }
 nav a:hover{
-	background-color: rgb(31, 80, 31);
+	background-color: #9f04ff;
 	color: white;
 	transition-duration: 0.5s;
 	border-radius: 5px;
 }
 nav{
 	padding: 10px;
-	background-color: #38734D;
+	background-color: #000000;
 	border-radius: 10px;
 }
 nav a{
@@ -83,11 +88,20 @@ main{
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 }
+main h2{
+	font-family: var(--fonte-titulo);
+	font-weight: bolder;
+}
+main h3{
+	font-family: var(--fonte-titulo);
+	font-weight: bolder;
+}
 footer{
 	text-align: center;
 	background-color: black;
 	color: greenyellow;
 	font-size: large;
+	font-weight: bold;
 }
 footer >a{
 	color: white;
