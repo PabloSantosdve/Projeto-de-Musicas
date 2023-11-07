@@ -10,7 +10,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: ;
+	--cor1: #9f04ff;
 	--cor2: ;
 	--cor3: ;
 	--cor4: ;
@@ -42,7 +42,7 @@ header{
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
-	color: black;
+	color: rgb(255, 255, 255);
 	font-weight: bolder;
 	font-size: 3em;
 	margin: auto;
@@ -80,7 +80,7 @@ main{
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;
-	max-width: 600px;
+	max-width: 500px;
 	min-width: 250px;
 	text-align: justify;
 	color: rgb(255, 255, 255);
