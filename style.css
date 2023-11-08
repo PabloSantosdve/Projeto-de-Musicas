@@ -50,7 +50,7 @@ header >h1{
 }
 header p{
 	padding-bottom: 5px;
-	color: black;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	
 }
@@ -80,7 +80,7 @@ main{
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;
-	max-width: 500px;
+	max-width: 900px;
 	min-width: 250px;
 	text-align: justify;
 	color: rgb(255, 255, 255);
@@ -91,6 +91,7 @@ main{
 main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
+	text-align: center;
 }
 main h3{
 	font-family: var(--fonte-titulo);
