@@ -58,7 +58,7 @@ nav a:hover{
 }
 nav{
 	padding: 10px;
-	background-color: #000000;
+	background-color: #000000d0;
 	border-radius: 10px;
 }
 nav a{
@@ -83,9 +83,7 @@ main{
     background-color: rgb(0, 0, 0);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
-}
-main p{
-    text-align: center;
+	text-align: center;
 }
 main a{
 	text-decoration: none;
