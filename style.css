@@ -90,7 +90,7 @@ main a{
 main a:hover{
     background-color: #9f04ff;
 	padding: 8px;
-	transition-duration: 0.6s;
+	transition-duration: 0.3s;
 	border-radius: 4px;
 }
 main h2{
