@@ -125,6 +125,13 @@ div.art a:hover{
 	color: #9f04ff;
 	transition-duration: 0.5s;
 }
+div#voltar{
+   text-align: center;
+   width: 45px;
+   background-color: white;
+   background-attachment: fixed;
+}
+
 footer{
 	text-align: center;
 	background-color: black;
@@ -132,7 +139,7 @@ footer{
 	font-size: large;
 	font-weight: bold;
 	border-radius: 5px;
-}	
+}
 footer >a{
 	color: white;
 	text-decoration: none;
