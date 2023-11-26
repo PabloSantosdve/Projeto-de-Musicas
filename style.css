@@ -41,7 +41,7 @@ header >h1{
 	font-family:  var(--fonte-destaque);
 	color: rgb(255, 255, 255);
 	font-weight: bolder;
-	font-size: 4em;
+	font-size: 4.5em;
 	margin: auto;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
 }
@@ -52,10 +52,10 @@ header p{
 	
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
-	transition-duration: 0.5s;
-	border-radius: 5px;
+	background-color: white;
+	color: #9f04ff;
+	transition-duration: 0.7s;
+	border-radius: 8px;
 }
 nav{
 	padding: 10px;
@@ -67,8 +67,8 @@ nav a{
 	color: white;
 	font-weight: bolder;
 	font-size: medium;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 28px;
+	padding-right: 28px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 
@@ -81,10 +81,23 @@ main{
 	max-width: 700px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.897);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
+}
+main > p {
+	font-size: 1.2em;
+	text-align: justify;
+}
+main > ul{
+	text-align: left;
+	font-size: 1.2em;
+	background-color: #9f04ff;
+	border-radius: 15px;
+}
+ul.lista{
+	color: #9f04ff;
 }
 main a{
 	text-decoration: none;
@@ -102,16 +115,19 @@ main h2{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 3.5em;
-	color: rgb(108, 0, 180);
+	color: rgb(155, 29, 240);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(108, 0, 180);
+	color: rgb(0, 0, 0);
+	background-image: linear-gradient( to right, #b542fc, transparent);
+	text-align: left;
+	border-radius: 5px;
 }
 hr{
-	background-color: blue;
+	border: 1px solid rgb(108, 0, 180);
 }
 div.art{
 	background-color: #000000;
@@ -140,7 +156,7 @@ div#voltar{
 footer{
 	text-align: center;
 	background-color: black;
-	color: greenyellow;
+	color: #b132ff;
 	font-size: large;
 	font-weight: bold;
 	border-radius: 5px;
@@ -150,10 +166,24 @@ footer >a{
 	text-decoration: none;
 }
 footer>a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: white;
+	color: #9f04ff;
 	transition-duration: 0.3s;
-	border-radius: 10px;
+	border-radius: 8px;
 	padding: 2px;
     margin: auto;
+}
+div.video{
+	background-color: white;
+	margin: 0px -20px 30px -20px;
+    padding: 20px;
+	padding-bottom: 45%;
+	position: relative;
+}
+div.video > iframe{
+    position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
 }
