@@ -98,6 +98,7 @@ main > ul{
 }
 ul.lista{
 	color: #9f04ff;
+	list-style-position: inside;
 }
 main a{
 	text-decoration: none;
