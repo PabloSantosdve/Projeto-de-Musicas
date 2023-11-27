@@ -96,6 +96,10 @@ main a:hover{
 	transition-duration: 0.3s;
 	border-radius: 10px;
 }
+main p{
+    font-size: 1.2em;
+	
+}
 main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;

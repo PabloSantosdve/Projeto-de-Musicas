@@ -97,11 +97,15 @@ main a:hover{
 	transition-duration: 0.3s;
 	border-radius: 10px;
 }
+main p{
+    font-size: 1.2em;
+	
+}
 main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3.5em;
 	color: rgb(255, 255, 255);
 }
 main h3{
@@ -111,7 +115,8 @@ main h3{
 	color: rgb(255, 255, 255);
 }
 hr{
-	border: 1px solid rgb(253, 253, 253);
+	border: 2px solid rgb(253, 253, 253);
+    border-radius: 5px;
 }
 div.video{
 	background-color: white;

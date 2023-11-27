@@ -6,16 +6,13 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('opentype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
-	--cor2: ;
-	--cor3: ;
-	--cor4: ;
-	--cor5: ;
-	--cor6: ;
+	--cor1: #832626;
+	--cor2: #C6D4D0;
+	--cor3: #9f04ff;
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
@@ -28,7 +25,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom,  #832626, transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -38,9 +35,9 @@ header{
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
-	color: rgb(255, 255, 255);
+	color: white;
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4.5em;
 	margin: auto;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
 }
@@ -51,8 +48,8 @@ header p{
 	
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: var(--cor1);
+	color: black;
 	transition-duration: 0.5s;
 	border-radius: 5px;
 }
@@ -91,33 +88,38 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+    background-color: var(--cor1);
+	color: white;
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
+}
+main p{
+    font-size: 1.2em;
 }
 main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
-	font-size: 3em;
-	color: rgb(108, 0, 180);
+	font-size: 3.5em;
+	color: var(--cor1);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: var(--cor2);
 }
 hr{
-	border: 1px solid red;
+	border: 2px solid #832626;
 }
 div.video{
-	background-color: white;
-	margin: 0px -20px 30px -20px;
+	background-color: var(--cor1);
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
 }
 div.video > iframe{
     position: absolute;
@@ -153,9 +155,9 @@ div#voltar{
 footer{
 	text-align: center;
 	background-color: black;
-	color: greenyellow;
+	color: var(--cor3);
 	font-size: large;
-	font-weight: bold;
+	font-weight: bolder;
 	border-radius: 5px;
 }
 footer >a{

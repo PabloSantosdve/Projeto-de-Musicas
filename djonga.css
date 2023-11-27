@@ -49,8 +49,8 @@ header p{
 	
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: var(--cor1);
+	color: black;
 	transition-duration: 0.5s;
 	border-radius: 5px;
 }
@@ -103,7 +103,7 @@ main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3.5em;
 	color: #eea847;
 }
 main h3{
@@ -113,7 +113,9 @@ main h3{
 	color: var(--cor1);
 }
 hr{
-	border: 1px solid #eea847;
+	border: 2px solid #eea847;
+	border-radius: 5px;
+	margin: auto;
 }
 div.video{
 	background-color: var(--cor1);
