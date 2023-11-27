@@ -6,11 +6,11 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
+	--cor1: rgb(255, 123, 0);
 	--cor2: ;
 	--cor3: ;
 	--cor4: ;
@@ -28,7 +28,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom,  rgb(255, 123, 0), transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -51,7 +51,7 @@ header p{
 	
 }
 nav a:hover{
-	background-color: #9f04ff;
+	background-color: rgb(255, 123, 0);
 	color: white;
 	transition-duration: 0.5s;
 	border-radius: 5px;
@@ -91,7 +91,7 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+    background-color: rgb(255, 123, 0);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -101,16 +101,16 @@ main h2{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 3em;
-	color: rgb(108, 0, 180);
+	color: rgb(255, 123, 0);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: rgb(255, 123, 0);
 }
 hr{
-	border: 1px solid red;
+	border: 1px solid rgb(255, 123, 0);
 }
 div.art{
 	background-color: #000000;
@@ -124,22 +124,28 @@ div.art{
 	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
 }
 
-div.art a{
-	color: white;
-	text-decoration: none;
-}
-div.art a:hover{
-	color: #9f04ff;
-	transition-duration: 0.5s;
-}
 div#voltar{
    text-align: center;
 }
-
+div.video{
+	background-color: var(--cor1);
+	margin: 0px -5px 30px -5px;
+    padding: 15px;
+	padding-bottom: 45%;
+	position: relative;
+	border-radius: 10px;
+}
+div.video > iframe{
+    position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
 footer{
 	text-align: center;
 	background-color: black;
-	color: greenyellow;
+	color: #9f04ff;
 	font-size: large;
 	font-weight: bold;
 	border-radius: 5px;
