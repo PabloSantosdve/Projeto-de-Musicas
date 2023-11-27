@@ -6,11 +6,11 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
+	--cor1: ;
 	--cor2: ;
 	--cor3: ;
 	--cor4: ;
@@ -28,7 +28,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom,  #000000, transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -40,7 +40,7 @@ header >h1{
 	font-family:  var(--fonte-destaque);
 	color: rgb(255, 255, 255);
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4.5em;
 	margin: auto;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
 }
@@ -51,8 +51,8 @@ header p{
 	
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
 	transition-duration: 0.5s;
 	border-radius: 5px;
 }
@@ -91,7 +91,8 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+	color: #000000;
+    background-color: #fffefe;
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -101,23 +102,24 @@ main h2{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 3em;
-	color: rgb(108, 0, 180);
+	color: rgb(255, 255, 255);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: rgb(255, 255, 255);
 }
 hr{
-	border: 1px solid red;
+	border: 1px solid rgb(253, 253, 253);
 }
 div.video{
 	background-color: white;
-	margin: 0px -20px 30px -20px;
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
 }
 div.video > iframe{
     position: absolute;
@@ -153,9 +155,9 @@ div#voltar{
 footer{
 	text-align: center;
 	background-color: black;
-	color: greenyellow;
+	color: #9f04ff;
 	font-size: large;
-	font-weight: bold;
+	font-weight: bolder;
 	border-radius: 5px;
 }
 footer >a{

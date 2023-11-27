@@ -6,16 +6,14 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('opentype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
+	--cor1: #eea847;
 	--cor2: ;
 	--cor3: ;
-	--cor4: ;
-	--cor5: ;
-	--cor6: ;
+	
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
@@ -28,7 +26,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom, #eea847, transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -40,7 +38,7 @@ header >h1{
 	font-family:  var(--fonte-destaque);
 	color: rgb(255, 255, 255);
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4.5em;
 	margin: auto;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
 }
@@ -85,13 +83,18 @@ main{
 	padding: 1px 14px 1px 14px;
 	text-align: center;
 }
+main p{
+    font-size: 1.2em;
+	
+}
 main a{
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+	color: #000000;
+    background-color: var(--cor1);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -101,23 +104,24 @@ main h2{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 3em;
-	color: rgb(108, 0, 180);
+	color: #eea847;
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: var(--cor1);
 }
 hr{
-	border: 1px solid red;
+	border: 1px solid #eea847;
 }
 div.video{
-	background-color: white;
-	margin: 0px -20px 30px -20px;
+	background-color: var(--cor1);
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
 }
 div.video > iframe{
     position: absolute;

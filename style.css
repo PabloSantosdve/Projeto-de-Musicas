@@ -29,7 +29,7 @@ body{
 }
 header{
 	background-image: linear-gradient( to bottom 
-	,  #9f04ff, rgba(99, 99, 99, 0.342));
+	,  #9f04ff, transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
