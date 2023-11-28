@@ -35,6 +35,7 @@ header{
 	min-height: 150px;
 	padding-top: 30px;
 	border-radius: 10px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
@@ -42,13 +43,13 @@ header >h1{
 	font-weight: bolder;
 	font-size: 3em;
 	margin: auto;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.623);
 }
 header p{
 	padding-bottom: 5px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
-	
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
 nav a:hover{
 	background-color: #9f04ff;
@@ -98,7 +99,7 @@ main a:hover{
 }
 main p{
     font-size: 1.2em;
-	
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
 }
 main h2{
 	font-family: var(--fonte-titulo);
@@ -106,22 +107,25 @@ main h2{
 	text-align: center;
 	font-size: 3em;
 	color: rgb(108, 0, 180);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
 	color: rgb(134, 0, 151);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 hr{
 	border: 1px solid red;
 }
 div.video{
 	background-color: white;
-	margin: 0px -20px 30px -20px;
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.747);
 }
 div.video > iframe{
     position: absolute;
@@ -130,26 +134,7 @@ div.video > iframe{
 	width: 90%;
 	height: 90%;
 }
-div.art{
-	background-color: #000000;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	text-align: center;
-	border-radius: 15px;
-	min-width: 200px;
-	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
-}
 
-div.art a{
-	color: white;
-	text-decoration: none;
-}
-div.art a:hover{
-	color: #9f04ff;
-	transition-duration: 0.5s;
-}
 div#voltar{
    text-align: center;
 }

@@ -130,26 +130,7 @@ div.video > iframe{
 	width: 90%;
 	height: 90%;
 }
-div.art{
-	background-color: #000000;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	text-align: center;
-	border-radius: 15px;
-	min-width: 200px;
-	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
-}
 
-div.art a{
-	color: white;
-	text-decoration: none;
-}
-div.art a:hover{
-	color: #9f04ff;
-	transition-duration: 0.5s;
-}
 div#voltar{
    text-align: center;
 }

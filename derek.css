@@ -35,6 +35,7 @@ header{
 	min-height: 150px;
 	padding-top: 30px;
 	border-radius: 10px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
@@ -42,19 +43,21 @@ header >h1{
 	font-weight: bolder;
 	font-size: 4.5em;
 	margin: auto;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.623);
 }
 header p{
 	padding-bottom: 5px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
-	
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
 nav a:hover{
 	background-color: #ffffff;
 	color: rgb(0, 0, 0);
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	border-radius: 5px;
+	box-shadow: 2px 2px 12px rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 nav{
 	padding: 10px;
@@ -80,7 +83,7 @@ main{
 	max-width: 700px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.938);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
@@ -92,14 +95,14 @@ main a{
 }
 main a:hover{
 	color: #000000;
-    background-color: #fffefe;
+    background-color: #ffffff;
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
 }
 main p{
     font-size: 1.2em;
-	
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
 }
 main h2{
 	font-family: var(--fonte-titulo);
@@ -107,12 +110,14 @@ main h2{
 	text-align: center;
 	font-size: 3.5em;
 	color: rgb(255, 255, 255);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
 	color: rgb(255, 255, 255);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 hr{
 	border: 2px solid rgb(253, 253, 253);
@@ -125,6 +130,7 @@ div.video{
 	padding-bottom: 45%;
 	position: relative;
 	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.747);
 }
 div.video > iframe{
     position: absolute;
@@ -132,23 +138,7 @@ div.video > iframe{
 	left: 5%;
 	width: 90%;
 	height: 90%;
-}
-div.art{
-	background-color: #000000;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	text-align: center;
-	border-radius: 15px;
-	min-width: 200px;
-	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
-}
-
-div.art a{
-	color: white;
-	text-decoration: none;
-}
+} 
 div.art a:hover{
 	color: #9f04ff;
 	transition-duration: 0.5s;
