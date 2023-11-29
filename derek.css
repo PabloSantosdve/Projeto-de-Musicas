@@ -10,12 +10,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: ;
-	--cor2: ;
+	--cor1: white;
+	--cor2: black;
 	--cor3: ;
-	--cor4: ;
-	--cor5: ;
-	--cor6: ;
+
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
@@ -28,7 +26,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to bottom,  #000000, transparent);
+	background-image: linear-gradient( to bottom, black, transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -104,6 +102,7 @@ main p{
     font-size: 1.2em;
 	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
 }
+
 main>h2#titulo{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;

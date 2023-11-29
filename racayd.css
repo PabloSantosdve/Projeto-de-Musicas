@@ -6,16 +6,14 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
-	--cor2: ;
+	--cor1: white;
+	--cor2: black;
 	--cor3: ;
-	--cor4: ;
-	--cor5: ;
-	--cor6: ;
+
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
@@ -28,42 +26,45 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom, black, transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
 	min-height: 150px;
 	padding-top: 30px;
 	border-radius: 10px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
 	color: rgb(255, 255, 255);
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4.5em;
 	margin: auto;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.623);
 }
 header p{
 	padding-bottom: 5px;
-	color: rgb(255, 255, 255);
+	color: var(--cor1);
 	font-weight: bold;
-	
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
-	transition-duration: 0.5s;
+	background-color: #ffffff;
+	color: var(--cor2);
+	transition-duration: 0.4s;
 	border-radius: 5px;
+	box-shadow: 2px 2px 12px rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 nav{
 	padding: 10px;
-	background-color: #000000d0;
+	background-color: var(--cor2);
 	border-radius: 10px;
 }
 nav a{
 	text-decoration: none;
-	color: white;
+	color: var(--cor1);
 	font-weight: bolder;
 	font-size: medium;
 	padding-left: 20px;
@@ -79,57 +80,64 @@ main{
 	min-width: 150px;
 	max-width: 700px;
 	text-align: justify; 
-	color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.801);
+	color: var(--cor1);
+    background-color: rgba(0, 0, 0, 0.938);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
 }
 main a{
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: var(--cor1);
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+	color: var(--cor2);
+    background-color: var(--cor1);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
 }
 main p{
     font-size: 1.2em;
-	
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
 }
+
 main>h2#titulo{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: white;
+	color: var(--cor1);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h2{
 	font-family: var(--fonte-titulo);
-	font-weight: bolder;
+	font-weight: bold;
 	text-align: center;
-	font-size: 3em;
-	color: rgb(108, 0, 180);
+	font-size: 2.8em;
+	color: var(--cor1);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: var(--cor1);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 hr{
-	border: 1px solid red;
+	border: 3px solid rgb(253, 253, 253);
+    border-radius: 5px;
 }
 div.video{
 	background-color: white;
-	margin: 0px -20px 30px -20px;
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.438);
 }
 div.video > iframe{
     position: absolute;
@@ -137,23 +145,7 @@ div.video > iframe{
 	left: 5%;
 	width: 90%;
 	height: 90%;
-}
-div.art{
-	background-color: #000000;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	text-align: center;
-	border-radius: 15px;
-	min-width: 200px;
-	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
-}
-
-div.art a{
-	color: white;
-	text-decoration: none;
-}
+} 
 div.art a:hover{
 	color: #9f04ff;
 	transition-duration: 0.5s;
@@ -165,9 +157,9 @@ div#voltar{
 footer{
 	text-align: center;
 	background-color: black;
-	color: greenyellow;
+	color: #9f04ff;
 	font-size: large;
-	font-weight: bold;
+	font-weight: bolder;
 	border-radius: 5px;
 }
 footer >a{
