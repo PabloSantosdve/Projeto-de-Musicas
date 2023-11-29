@@ -19,8 +19,10 @@
 	--fonte-titulo: 'negro', 'cursive';
 }
 body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(imagens/rapimagemdefundo-removebg-preview.png);
+	background-color: black;
+	background-image: url(imagens/kayblack\ fundo.jpg);		
+	background-size: cover;
+	background-position: center center;
 	background-attachment: fixed;
 	font-family: var(--fonte-padrao);
 }

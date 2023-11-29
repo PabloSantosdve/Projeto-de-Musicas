@@ -22,11 +22,19 @@
 	--fonte-titulo: 'negro', 'cursive';
 }
 body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(imagens/rapimagemdefundo-removebg-preview.png);
+	background-image: url(imagens/imagem\ de\ fundo\ bk.jpg);
+	background-color: black;
+	background-position: center center;
+	background-size: cover;
 	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
 	font-family: var(--fonte-padrao);
 }
+main{
+	background-color: rgba(0, 0, 0, 0.445);
+	color: rgb(255, 255, 255);
+}
+
 header{
 	background-image: linear-gradient( to bottom,  rgb(255, 123, 0), transparent);
 	color: var(--cor1);
@@ -76,6 +84,7 @@ nav a{
     
 }
 main{
+	font-family: Arial, Helvetica, sans-serif;
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;

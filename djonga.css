@@ -20,10 +20,16 @@
 	--fonte-titulo: 'negro', 'cursive';
 }
 body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(imagens/rapimagemdefundo-removebg-preview.png);
+	background-color: black;
+	background-image: url(imagens/djonga\ imagem\ de\ fundo.webp);
+	background-size: cover;
+	background-position: center center;
 	background-attachment: fixed;
-	font-family: var(--fonte-padrao);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+	background-color: rgba(0, 0, 0, 0.473);
+	color: rgb(255, 255, 255);
 }
 header{
 	background-image: linear-gradient( to bottom, #eea847, transparent);
