@@ -105,6 +105,14 @@ main p{
     font-size: 1.2em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
+main>h2#titulo{
+	font-family: var(--fonte-titulo);
+	font-weight: bolder;
+	text-align: center;
+	font-size: 4em;
+	color: var(--cor1);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
+}
 main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
