@@ -90,7 +90,8 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+	color: #000000;
+    background-color: var(--cor1);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -112,7 +113,7 @@ main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.8em;
 	color: var(--cor1);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
@@ -124,14 +125,16 @@ main h3{
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342)
 }
 hr{
-	border: 1px solid red;
+	border: 3px solid  var(--cor1);
 }
 div.video{
 	background-color: white;
-	margin: 0px -20px 30px -20px;
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.747);
 }
 div.video > iframe{
     position: absolute;
