@@ -111,9 +111,9 @@ main>h2#titulo{
 
 main h2{
 	font-family: var(--fonte-titulo);
-	font-weight: bolder;
+	font-weight: bold;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.8em;
 	color: rgb(108, 0, 180);
 }
 main h3{
