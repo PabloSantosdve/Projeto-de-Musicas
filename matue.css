@@ -83,7 +83,7 @@ main{
 	max-width: 700px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.644);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
@@ -94,7 +94,8 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+	color: var(--cor3);
+    background-color: var(--cor2);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -108,8 +109,8 @@ main>h2#titulo{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: white;
-	text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.342);
+	color: var(--cor1);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h2{
 	font-family: var(--fonte-titulo);
@@ -127,7 +128,7 @@ main h3{
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342)
 }
 hr{
-	border: 3px solid ;
+	border: 3px solid var(--cor2);
 }
 div.video{
 	background-color: white;
@@ -136,7 +137,7 @@ div.video{
 	padding-bottom: 45%;
 	position: relative;
 	border-radius: 10px;
-
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.747);
 }
 div.video > iframe{
     position: absolute;
@@ -145,26 +146,7 @@ div.video > iframe{
 	width: 90%;
 	height: 90%;
 }
-div.art{
-	background-color: #000000;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	text-align: center;
-	border-radius: 15px;
-	min-width: 200px;
-	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
-}
 
-div.art a{
-	color: white;
-	text-decoration: none;
-}
-div.art a:hover{
-	color: #9f04ff;
-	transition-duration: 0.5s;
-}
 div#voltar{
    text-align: center;
 }
