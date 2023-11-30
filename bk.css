@@ -59,7 +59,7 @@ header p{
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
-nav a:hover{
+nav a:hover{ 
 	background-color: rgb(255, 123, 0);
 	color: rgb(255, 255, 255);
 	transition-duration: 0.4s;
