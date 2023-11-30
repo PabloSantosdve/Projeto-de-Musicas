@@ -10,8 +10,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: ;
-	--cor2: ;
+	--cor1: #F71A24;
+	--cor2: rgb(190, 33, 33), 62, 62;
 	--cor3: ;
 	--cor4: ;
 	--cor5: ;
@@ -30,7 +30,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to bottom,  black, transparent);
+	background-image: linear-gradient( to bottom, var(--cor1), transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -42,7 +42,7 @@ header{
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
-	color: rgb(255, 255, 255);
+	color: white;
 	font-weight: bolder;
 	font-size: 4em;
 	margin: auto;
@@ -97,7 +97,7 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+    background-color: var(--cor1);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -111,7 +111,7 @@ main>h2#titulo{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: white;
+	color: var(--cor1);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h2{
@@ -119,14 +119,14 @@ main h2{
 	font-weight: bold;
 	text-align: center;
 	font-size: 2.8em;
-	color: rgb(108, 0, 180);
+	color: var(--cor1);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: var(--cor2);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 hr{
@@ -138,6 +138,7 @@ div.video{
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
 }
 div.video > iframe{
     position: absolute;
