@@ -6,12 +6,12 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('opentype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
-	--cor2: ;
+	--cor1: black;
+	--cor2: white;
 	--cor3: ;
 	--cor4: ;
 	--cor5: ;
@@ -22,43 +22,48 @@
 	--fonte-titulo: 'negro', 'cursive';
 }
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(3, 226, 255);
 	background-image: url(imagens/rapimagemdefundo-removebg-preview.png);
+	background-size: cover;
+	background-position: center center;
 	background-attachment: fixed;
-	font-family: var(--fonte-padrao);
+	font-family: Arial, Helvetica, sans-serif;
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom,  var(--cor2), transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
 	min-height: 150px;
 	padding-top: 30px;
 	border-radius: 10px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
-	color: rgb(255, 255, 255);
+	color: black;
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4em;
 	margin: auto;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.623);
 }
 header p{
 	padding-bottom: 5px;
-	color: rgb(255, 255, 255);
+	color: black;
 	font-weight: bold;
-	
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: var(--cor2);
+	color: var(--cor1);
 	transition-duration: 0.5s;
 	border-radius: 5px;
+	box-shadow: 2px 2px 12px rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 nav{
 	padding: 10px;
-	background-color: #000000d0;
+	background-color: #000000;
 	border-radius: 10px;
 }
 nav a{
@@ -88,7 +93,7 @@ main{
 	max-width: 700px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.74);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
@@ -106,30 +111,34 @@ main a:hover{
 }
 main p{
     font-size: 1.2em;
-	
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
 }
 main h2{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
 	font-size: 2.8em;
-	color: rgb(108, 0, 180);
+	color: var(--cor2);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: var(--cor2);
 }
 hr{
-	border: 1px solid red;
+	border: 2px solid var(--cor1);
+	border-radius: 5px;
 }
 div.video{
 	background-color: white;
-	margin: 0px -20px 30px -20px;
+	margin: 0px -10px 30px -10px;
     padding: 20px;
 	padding-bottom: 45%;
 	position: relative;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.877);
 }
 div.video > iframe{
     position: absolute;

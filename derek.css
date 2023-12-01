@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
 	--cor1: white;
-	--cor2: black;
+	--cor2: black; 
 	--cor3: ;
 
 
@@ -94,8 +94,8 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-	color: #000000;
-    background-color: #ffffff;
+	color: var(--cor1);
+    background-color: var(--cor2);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -148,10 +148,6 @@ div.video > iframe{
 	width: 90%;
 	height: 90%;
 } 
-div.art a:hover{
-	color: #9f04ff;
-	transition-duration: 0.5s;
-}
 div#voltar{
    text-align: center;
 }
