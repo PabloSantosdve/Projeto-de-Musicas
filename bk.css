@@ -117,7 +117,7 @@ main>h2#titulo{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: rgb(255, 123, 0);
+	color: rgb(255, 123, 0); 
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 
@@ -163,7 +163,7 @@ div.video > iframe{
 footer{
 	text-align: center;
 	background-color: black;
-	color: #9f04ff;
+	color: var(--cor1);
 	font-size: large;
 	font-weight: bold;
 	border-radius: 5px;

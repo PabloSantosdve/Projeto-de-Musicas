@@ -6,12 +6,12 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('opentype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
-	--cor2: ;
+	--cor1: #57E71D;
+	--cor2: #17c526;
 	--cor3: ;
 	--cor4: ;
 	--cor5: ;
@@ -28,20 +28,20 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom,  var(--cor1), transparent );
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
 	min-height: 150px;
 	padding-top: 30px;
 	border-radius: 10px;
-	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4em;
 	margin: auto;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.623);
 }
@@ -52,14 +52,16 @@ header p{
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
 nav a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: var(--cor1);
+	color: black;
 	transition-duration: 0.5s;
 	border-radius: 5px;
+	box-shadow: 2px 2px 12px rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
 }
 nav{
 	padding: 10px;
-	background-color: #000000d0;
+	background-color: #000000;
 	border-radius: 10px;
 }
 nav a{
@@ -92,7 +94,7 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+    background-color: var(--cor1);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -106,7 +108,7 @@ main>h2#titulo{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: white;
+	color: var(--cor1);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h2{
@@ -114,18 +116,18 @@ main h2{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 2.8em;
-	color: rgb(108, 0, 180);
+	color: var(--cor2);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(134, 0, 151);
+	color: var(--cor2);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 hr{
-	border: 1px solid red;
+	border: 2px solid var(--cor1);
 }
 div.video{
 	background-color: white;

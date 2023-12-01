@@ -12,10 +12,7 @@
 :root{
 	--cor1: black;
 	--cor2: white;
-	--cor3: ;
-	--cor4: ;
-	--cor5: ;
-	--cor6: ;
+	--cor3: rgb(3, 226, 255);
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
@@ -104,7 +101,7 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+    background-color: var(--cor3);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
@@ -155,7 +152,7 @@ div#voltar{
 footer{
 	text-align: center;
 	background-color: black;
-	color: greenyellow;
+	color: var(--cor3);
 	font-size: large;
 	font-weight: bold;
 	border-radius: 5px;
@@ -165,7 +162,7 @@ footer >a{
 	text-decoration: none;
 }
 footer>a:hover{
-	background-color: #9f04ff;
+	background-color: var(--cor3);
 	color: white;
 	transition-duration: 0.3s;
 	border-radius: 10px;
