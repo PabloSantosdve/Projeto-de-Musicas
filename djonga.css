@@ -107,6 +107,8 @@ main a:hover{
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
+	box-shadow: 2px 2px 12px rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
 }
 main>h2#titulo{
 	font-family: var(--fonte-titulo);
