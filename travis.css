@@ -6,7 +6,7 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/JIMTH___.TTF') format('truetype');
+	src: url('fonte/Evil\ Empire.otf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
@@ -30,7 +30,7 @@ body{
 	font-family: var(--fonte-padrao);
 }
 header{
-	background-image: linear-gradient( to right,  #9f04ff, rgba(99, 99, 99, 0.342));
+	background-image: linear-gradient( to bottom,  #9f04ff, rgba(99, 99, 99, 0.342));
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -42,7 +42,7 @@ header >h1{
 	font-family:  var(--fonte-destaque);
 	color: rgb(255, 255, 255);
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 4em;
 	margin: auto;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
 }
@@ -82,7 +82,7 @@ main{
 	max-width: 700px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.651);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
