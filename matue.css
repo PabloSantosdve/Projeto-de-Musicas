@@ -11,8 +11,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
 	--cor1: #B948CA;
-	--cor2: #C30CDB;
-	--cor3: #FDF829;
+	--cor2: #0cdbca;
+	--cor3: #29fdbd;
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 	--fonte-destaque: 'negro 2', Arial, Verdana,sans-serif;
@@ -28,7 +28,7 @@ body{
 	 
 }
 header{
-	background-image: linear-gradient( to bottom,  #B948CA, transparent);
+	background-image: linear-gradient( to bottom,  var(--cor1), transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
