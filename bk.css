@@ -119,7 +119,7 @@ main>h2#titulo{
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: rgb(255, 123, 0); 
+	color: var(--cor1); 
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 
@@ -128,21 +128,19 @@ main h2{
 	font-weight: bold;
 	text-align: center;
 	font-size: 2.8em;
-	color: rgb(255, 123, 0);
+	color: var(--cor1);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(255, 123, 0);
+	color: rgb(255, 255, 255);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 hr{
-	border: 2px solid rgb(255, 123, 0);
-	border-radius: 5px;
+	border: 2px solid var(--cor1);
 }
-
 div#voltar{
    text-align: center;
 }

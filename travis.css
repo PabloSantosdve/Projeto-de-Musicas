@@ -75,7 +75,7 @@ nav a{
 	padding-right: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-
+    
 }
 main{
 	margin: auto;
@@ -94,6 +94,7 @@ main a{
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
+	
 }
 main a:hover{
     background-color: var(--cor1);

@@ -6,14 +6,14 @@
 }
 @font-face {
 	font-family: 'negro 2';
-	src: url('fonte/Evil\ Empire.otf') format('opentype');
+	src: url('fonte/Evil\ Empire.otf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
-	--cor1: #9f04ff;
-	--cor2: ;
-	--cor3: ;
-	--cor4: ;
+	--cor1: #DD7DF5;
+	--cor2: #9A43B5;
+	--cor3: #642B75;
+	--cor4: #080238;
 	--cor5: ;
 	--cor6: ;
 
@@ -22,20 +22,28 @@
 	--fonte-titulo: 'negro', 'cursive';
 }
 body{
-	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(imagens/rapimagemdefundo-removebg-preview.png);
+	background-color: rgb(255, 255, 255);
+	background-position: center center;
+	background-size: cover;
 	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
 	font-family: var(--fonte-padrao);
 }
+main{
+	background-color: rgba(0, 0, 0, 0.445);
+	color: rgb(255, 255, 255);
+}
+
 header{
-	background-image: linear-gradient( to bottom 
-	,  #9f04ff, transparent);
+	background-image: linear-gradient( to bottom,  var(--cor2), transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
 	min-height: 150px;
 	padding-top: 30px;
 	border-radius: 10px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
@@ -43,37 +51,40 @@ header >h1{
 	font-weight: bolder;
 	font-size: 4.5em;
 	margin: auto;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.623);
 }
 header p{
 	padding-bottom: 5px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
-	
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
-nav a:hover{
-	background-color: white;
-	color: #9f04ff;
-	transition-duration: 0.7s;
-	border-radius: 8px;
+nav a:hover{ 
+	background-color: var(--cor3);
+	color: rgb(255, 255, 255);
+	transition-duration: 0.4s;
+	border-radius: 5px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.356);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 nav{
 	padding: 10px;
-	background-color: #000000f5;
+	background-color: #ffffff;
 	border-radius: 10px;
 }
 nav a{
 	text-decoration: none;
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: bolder;
 	font-size: medium;
-	padding-left: 28px;
-	padding-right: 28px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-
+    
 }
 main{
+	font-family: Arial, Helvetica, sans-serif;
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;
@@ -81,24 +92,10 @@ main{
 	max-width: 700px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color: rgba(0, 0, 0, 0.801);
 	border-radius: 10px;
 	padding: 1px 14px 1px 14px;
 	text-align: center;
-}
-main > p {
-	font-size: 1.2em;
-	text-align: justify;
-}
-main > ul{
-	text-align: left;
-	font-size: 1.2em;
-	background-color: #9f04ff;
-	border-radius: 15px;
-}
-ul.lista{
-	color: #9f04ff;
-	list-style-position: inside;
 }
 main a{
 	text-decoration: none;
@@ -106,39 +103,59 @@ main a{
 	font-weight: bold;
 }
 main a:hover{
-    background-color: #9f04ff;
+    background-color: var(--cor1);
 	padding: 8px;
 	transition-duration: 0.3s;
 	border-radius: 10px;
 	box-shadow: 2px 2px 12px rgb(255, 255, 255);
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
 }
+main p{
+    font-size: 1.2em;
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
+}
 main>h2#titulo{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	text-align: center;
 	font-size: 4em;
-	color: white;
+	color: var(--cor1); 
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
+
 main h2{
 	font-family: var(--fonte-titulo);
-	font-weight: bolder;
+	font-weight: bold;
 	text-align: center;
-	font-size: 3.5em;
-	color: rgb(155, 29, 240);
+	font-size: 2.8em;
+	color: var(--cor1);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
 main h3{
 	font-family: var(--fonte-titulo);
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: rgb(0, 0, 0);
-	background-image: linear-gradient( to right, #b542fc, transparent);
+	color: var(--cor4);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 	text-align: left;
-	border-radius: 5px;
 }
 hr{
-	border: 1px solid rgb(108, 0, 180);
+	border: 2px solid var(--cor1);
+}
+ul > li{
+	font-weight: bold;
+	text-align: left;
+    font-size: 1.1em;
+	
+}
+ul > li > strong{
+	color: var(--cor4);
+	font-weight: bolder;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+	background-color: var(--cor1);
+	border-radius: 15px;
 }
 div.art{
 	background-color: #000000;
@@ -160,14 +177,31 @@ div.art a:hover{
 	color: #9f04ff;
 	transition-duration: 0.5s;
 }
-div#voltar{
-   text-align: center;
+div.art1{
+	background-color: #000000;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 15px;
+	min-width: 200px;
+	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
 }
 
+div.art1 a{
+	color: white;
+	text-decoration: none;
+}
+div.art1 a:hover{
+	color: #ff0404;
+	transition-duration: 0.5s;
+	background-color: gold;
+}
 footer{
 	text-align: center;
 	background-color: black;
-	color: #b132ff;
+	color: var(--cor1);
 	font-size: large;
 	font-weight: bold;
 	border-radius: 5px;
@@ -177,24 +211,10 @@ footer >a{
 	text-decoration: none;
 }
 footer>a:hover{
-	background-color: white;
-	color: #9f04ff;
+	background-color: #9f04ff;
+	color: white;
 	transition-duration: 0.3s;
-	border-radius: 8px;
+	border-radius: 10px;
 	padding: 2px;
     margin: auto;
-}
-div.video{
-	background-color: white;
-	margin: 0px -20px 30px -20px;
-    padding: 20px;
-	padding-bottom: 45%;
-	position: relative;
-}
-div.video > iframe{
-    position: absolute;
-	top: 5%;
-	left: 5%;
-	width: 90%;
-	height: 90%;
 }
