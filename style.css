@@ -148,6 +148,7 @@ main h3.rap{
 }
 hr{
 	border: 2px solid var(--cor1);
+	border-radius: 50%;
 }
 ul > li{
 	font-weight: bold;

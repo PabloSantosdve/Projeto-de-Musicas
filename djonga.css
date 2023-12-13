@@ -135,7 +135,7 @@ main h3{
 }
 hr{
 	border: 2px solid #eea847;
-	border-radius: 5px;
+	border-radius: 50%;
 	margin: auto;
 }
 div.video{

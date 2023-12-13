@@ -140,6 +140,7 @@ main h3{
 }
 hr{
 	border: 2px solid var(--cor1);
+	border-radius: 50%;
 }
 div#voltar{
    text-align: center;

@@ -132,7 +132,7 @@ main h3{
 }
 hr{
 	border: 3px solid rgb(253, 253, 253);
-    border-radius: 5px;
+    border-radius: 50%;
 }
 div.video{
 	background-color: white;
