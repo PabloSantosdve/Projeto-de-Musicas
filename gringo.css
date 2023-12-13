@@ -129,11 +129,27 @@ main h3{
 	font-size: 1.5em;
 	color: var(--cor2);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
-	text-align: left;
+	text-align: center;
 }
 hr{
 	border: 2px solid var(--cor1);
 	border-radius: 50%;
+}
+div.video{
+	background-color: var(--cor3);
+	margin: 0px -10px 30px -10px;
+    padding: 20px;
+	padding-bottom: 45%;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.747);
+}
+div.video > iframe{
+    position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;	
 }
 div#voltar{
     text-align: center;
