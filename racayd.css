@@ -160,10 +160,10 @@ div#voltar{
 
 footer{
 	text-align: center;
-	background-color: black;
-	color: #9f04ff;
+	background-color: #080238;
+	color: #DD7DF5;
 	font-size: large;
-	font-weight: bolder;
+	font-weight: bold;
 	border-radius: 5px;
 }
 footer >a{
@@ -171,10 +171,10 @@ footer >a{
 	text-decoration: none;
 }
 footer>a:hover{
-	background-color: #9f04ff;
-	color: white;
+	background-color: #DD7DF5;
+	color: black;
 	transition-duration: 0.3s;
-	border-radius: 10px;
+	border-radius: 8px;
 	padding: 2px;
     margin: auto;
 }
