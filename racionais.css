@@ -131,6 +131,10 @@ main h3{
 	color: var(--cor2);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
+main > img {
+	box-shadow: 3px 2px 2px #00000071;
+	border-radius: 6px;
+ }
 hr{
 	border: 2px solid red;
 	border-radius: 50%;
