@@ -30,11 +30,6 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-family: var(--fonte-padrao);
 }
-main{
-	background-color: rgba(0, 0, 0, 0.445);
-	color: rgb(255, 255, 255);
-}
-
 header{
 	background-image: linear-gradient( to bottom,  var(--cor2), transparent);
 	color: var(--cor1);
@@ -88,8 +83,8 @@ main{
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;
-	min-width: 150px;
-	max-width: 700px;
+	min-width: 300px;
+	max-width: 1000px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.801);

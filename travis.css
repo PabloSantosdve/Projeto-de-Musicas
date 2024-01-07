@@ -81,8 +81,8 @@ main{
 	margin: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;
-	min-width: 150px;
-	max-width: 700px;
+	min-width: 300px;
+	max-width: 1000px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.651);
