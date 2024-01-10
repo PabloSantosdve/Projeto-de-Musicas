@@ -141,6 +141,10 @@ main h3.rap{
 	text-align: left;
 	background-image: linear-gradient( to right, var(--cor2), transparent);
 }
+main > img.art2{
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.253);
+	border-radius: 0px 15px 0px 15px;
+}
 hr{
 	border: 2px solid var(--cor1);
 	border-radius: 50%;

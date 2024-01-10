@@ -126,6 +126,10 @@ main h3{
 	font-size: 1.5em;
 	color: var(--cor2);
 }
+main > img.art2{
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.253);
+	border-radius: 0px 15px 0px 15px;
+}
 hr{
 	border: 2px solid var(--cor1);
 	border-radius: 50%;

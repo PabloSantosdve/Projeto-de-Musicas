@@ -131,10 +131,10 @@ main h3{
 	color: var(--cor2);
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 }
-main > img {
-	box-shadow: 3px 2px 2px #00000071;
-	border-radius: 6px;
- }
+main > img.art2{
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.253);
+	border-radius: 0px 15px 0px 15px;
+}
 hr{
 	border: 2px solid red;
 	border-radius: 50%;
