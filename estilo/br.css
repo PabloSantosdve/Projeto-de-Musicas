@@ -27,7 +27,7 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 header{
-	background-image: linear-gradient( to bottom,  var(--cor2), transparent);
+	background-image: linear-gradient( to bottom,  var(--cor3), transparent);
 	color: var(--cor1);
 	text-align: center;
 	margin: auto;
@@ -46,7 +46,7 @@ header >h1{
 }
 header p{
 	padding-bottom: 5px;
-	color: black;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
@@ -131,7 +131,7 @@ main > img.art2{
 	border-radius: 0px 15px 0px 15px;
 }
 hr{
-	border: 2px solid var(--cor1);
+	border: 2px solid var(--cor3);
 	border-radius: 50%;
 }
 div.video{
