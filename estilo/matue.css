@@ -52,7 +52,7 @@ header p{
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
 }
 nav a:hover{
-	background-color: var(--cor2);
+	background-color: var(--cor1);
 	color: white;
 	transition-duration: 0.4s;
 	border-radius: 5px;
