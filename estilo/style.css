@@ -139,6 +139,7 @@ main h3.rap{
 	color: white;
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 	text-align: left;
+	border-radius: 5px;
 	background-image: linear-gradient( to right, var(--cor2), transparent);
 }
 main > img.art2{
