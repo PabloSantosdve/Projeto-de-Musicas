@@ -12,7 +12,7 @@
 :root{
 	--cor1: #DD7DF5;
 	--cor2: #9A43B5;
-	--cor3: #642B75;
+	--cor3: rgb(100, 43, 117);
 	--cor4: #080238;
 	--cor5: ;
 	--cor6: ;
@@ -188,7 +188,7 @@ div.art1{
 	text-align: center;
 	border-radius: 15px;
 	min-width: 200px;
-	box-shadow: 8px 6px rgba(0, 0, 0, 0.226);
+	box-shadow: 8px 5px 6px rgba(0, 0, 0, 0.226);
 }
 
 div.art1 a{
