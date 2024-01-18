@@ -36,10 +36,10 @@ header{
 	text-align: center;
 	margin: auto;
 	min-height: 150px;
+	max-width: 1200px;
 	padding-top: 30px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
-	position: relative;
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
@@ -67,7 +67,7 @@ nav{
 	padding: 10px;
 	background-color: #ffffff;
 	border-radius: 10px;
-
+	
 }
 nav a{
 	text-decoration: none;
@@ -85,7 +85,7 @@ main{
 	margin-top: 16px;
 	margin-bottom: 16px;
 	min-width: 300px;
-	max-width: 1000px;
+	max-width: 1200px;
 	text-align: justify; 
 	color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.801);
@@ -140,7 +140,7 @@ main h3.rap{
 	color: white;
 	text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342);
 	text-align: left;
-	border-radius: 5px;
+	border-radius: 2px;
 	background-image: linear-gradient( to right, var(--cor2), transparent);
 }
 main h4{
