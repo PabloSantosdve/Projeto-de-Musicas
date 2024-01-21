@@ -14,7 +14,7 @@
 	--cor2: #9A43B5;
 	--cor3: rgb(100, 43, 117);
 	--cor4: #080238;
-	--cor5: ;
+	--cor5: white;
 	--cor6: ;
 
 	--fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -40,6 +40,7 @@ header{
 	padding-top: 30px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
+	
 }
 header >h1{
 	font-family:  var(--fonte-destaque);
@@ -147,7 +148,7 @@ main h3.rap{
 main h4{
 	font-family: var(--fonte-titulo);
 	font-size: 1.5em;
-	color: var(--cor4);
+	color: var(--cor5);
 	margin-bottom: 2px;
 
 }
@@ -159,17 +160,19 @@ hr{
 	border: 2px solid var(--cor1);
 	border-radius: 50%;
 }
+ul {
+	background-image: linear-gradient(to bottom, var(--cor1), rgb(0, 0, 0));
+	border-radius: 10px;
+}
+
 ul > li{
 	font-weight: bold;
 	text-align: left;
     font-size: 1.1em;
 }
-ul{
-	background-color: var(--cor1);
-	border-radius: 10px;
-}
+	
 ul#curi{
-	background-color: rgba(111, 0, 255, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 ul#curi > li {
 	font-size: 16pt;
